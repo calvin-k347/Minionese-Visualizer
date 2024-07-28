@@ -1,0 +1,45 @@
+#Section1{
+    scroll-snap-align: start;
+    height: 100vh;
+    display: inline-block;
+    width: 100vw;
+    scroll-snap-align: start;
+    margin-left: auto;
+}
+#Section2{
+    height: 100vh;
+    display: inline-block;
+    width: 100vw;
+    scroll-snap-align: start;
+
+}
+#File_Upload{
+    border: .5vb solid rgb(0, 0, 0);
+    background-color:rgba(254,215,98,255) ;
+    border-radius: 30%;
+    width: 300px;
+    height: 400px;
+    margin-top: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#goggles{
+    border: .5vb solid rgb(0, 0, 0);
+    background-color: azure;
+    border-radius: 100%;
+    width: 40%;
+    height: 30%;
+    margin: auto;
+    margin-top: 30%;
+}
+
+#eye{
+    border: .5vb solid rgb(0, 0, 0);
+    border-radius: 100%;
+    width: 40%;
+    height: 40%;
+    margin: auto;
+    margin-top: 25%;
+    background-color: black;
+}
