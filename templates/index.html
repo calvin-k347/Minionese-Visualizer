@@ -5,15 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minionese Visualizer</title>
     <link rel="stylesheet" href="/static/style.css">
+    <script src="/static/script.js"></script>
 </head>
 <body>
     <div id="Section1">
-        <div id="File_Upload">
+        <input id="hiddenFileInput" type="file" class="hide" ></input>
+        <div type="file" id="File_Upload" onclick="openFileSelect()" dragenter="fileDropped()">
             <div id="band"></div>
             <div id="goggles">
-                <div id="eye"></div>
+                <div id="eye" ></div>
+            </div>
+            <div id="smile">
             </div>
         </div>
+        Image by <a href="https://www.freepik.com/free-vector/hand-drawn-lineal-engraved-banana-pattern_25149743.htm#query=banana&position=21&from_view=keyword&track=sph&uuid=50c3021c-e353-42eb-98c7-8fd589f5b3bb">Freepik</a>
     </div>
     <div id="Section 2">
         <div id="Visualizer">Visualizer</div>

@@ -1,5 +1,6 @@
 #Section1{
     scroll-snap-align: start;
+    background-image: url(/static/BANANAS.jpg);
     height: 100vh;
     display: inline-block;
     width: 100vw;
@@ -13,6 +14,7 @@
     scroll-snap-align: start;
 
 }
+
 #File_Upload{
     border: .5vb solid rgb(0, 0, 0);
     background-color:rgba(254,215,98,200) ;
@@ -23,7 +25,19 @@
     margin-left: auto;
     margin-right: auto;
 }
-
+#File_Upload:hover {
+    opacity: .75;
+    cursor: pointer;
+}
+#File_Upload:hover > #smile{
+    border-radius: 0px 0px 150px 150px;
+    background-color: rgb(73, 1, 25);
+    height: 2%;
+    display: block;
+}
+.hide{
+    display: none;
+}
 #goggles{
     border: .7vb solid rgb(0, 0, 0);
     background-color: azure;
@@ -45,6 +59,7 @@
 
 }
 
+
 #band{
     border: .5vb solid rgb(0, 0, 0);
     border-radius: 10%;
@@ -53,3 +68,15 @@
     margin-top: 50%;
     background-color: black;
 }
+
+#smile{
+
+    border: .3px solid rgb(0, 0, 0);
+    width: 30%;
+    height: 1%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    background-color: rgb(0, 0, 0);
+}
+
