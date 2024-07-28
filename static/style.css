@@ -15,7 +15,7 @@
 }
 #File_Upload{
     border: .5vb solid rgb(0, 0, 0);
-    background-color:rgba(254,215,98,255) ;
+    background-color:rgba(254,215,98,200) ;
     border-radius: 30%;
     width: 300px;
     height: 400px;
@@ -25,13 +25,13 @@
 }
 
 #goggles{
-    border: .5vb solid rgb(0, 0, 0);
+    border: .7vb solid rgb(0, 0, 0);
     background-color: azure;
     border-radius: 100%;
     width: 40%;
     height: 30%;
     margin: auto;
-    margin-top: 30%;
+    margin-top: -25%;
 }
 
 #eye{
@@ -41,5 +41,15 @@
     height: 40%;
     margin: auto;
     margin-top: 25%;
+    background-color: black;
+
+}
+
+#band{
+    border: .5vb solid rgb(0, 0, 0);
+    border-radius: 10%;
+    width: 98%;
+    height: 5%;
+    margin-top: 50%;
     background-color: black;
 }
