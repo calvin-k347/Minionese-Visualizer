@@ -47,6 +47,10 @@ h2{
     height: 10%;
     display: block;
 }
+
+#File_Upload.drag-over{
+    cursor: url(/static/banana-125x125.png), pointer;
+}
 .hide{
     display: none;
 }
