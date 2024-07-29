@@ -14,25 +14,37 @@
     scroll-snap-align: start;
 
 }
-
+h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 350%;
+}
+h2{
+    text-align: center;
+    background-color: rgba(241, 245, 0, 0.692);
+    width: 25%;
+    margin: auto;
+    margin-bottom: 0%;
+}
 #File_Upload{
     border: .5vb solid rgb(0, 0, 0);
     background-color:rgba(254,215,98,200) ;
     border-radius: 30%;
     width: 300px;
     height: 400px;
-    margin-top: 20%;
+    margin-top: 7%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 10%;
 }
 #File_Upload:hover {
-    opacity: .75;
-    cursor: pointer;
+    cursor: url(/static/banana-125x125.png), pointer;
 }
 #File_Upload:hover > #smile{
     border-radius: 0px 0px 150px 150px;
     background-color: rgb(73, 1, 25);
-    height: 2%;
+    height: 10%;
     display: block;
 }
 .hide{
