@@ -15,4 +15,7 @@ https://parselmouth.readthedocs.io/en/stable/installation.html
 
 http://phonetics.linguistics.ucla.edu/facilities/acoustic/praat.html
 
+https://aclanthology.org/L18-1449.pdf 
+
+https://languagelog.ldc.upenn.edu/myl/BayesianFormants.pdf
 
